@@ -3,7 +3,3 @@ server:
 spring:
   application:
     name: demo
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8090/eureka
