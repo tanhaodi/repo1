@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  servlet:
+    path: /
+spring:
+  application:
+    name: user-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://test.ingress.com/eureka
